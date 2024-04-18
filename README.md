@@ -30,13 +30,13 @@ For the future implementations, i am planning on adding these features:
 
 ### Database
 
-![Database Diagram](https://github.com/MikkoKylliainen/eustats/blob/master/eustats/public/eustats_dbDiagram.jpg)
+![Database Diagram](https://github.com/MikkoKylliainen/EU-Statistics/blob/master/eustats/public/eustats_dbDiagram.jpg)
 
 Nothing much to say about the Database for now, no relations, just simple tables (collections) for now, will be expanded in the future.
 
 ### Installation commands
 
-#### Installation folder (/eustatsBase/)
+#### Installation folder (/EU-Statistics/)
 
 **npm create vite@latest**
 -> project name: eustats
@@ -54,4 +54,4 @@ Nothing much to say about the Database for now, no relations, just simple tables
 **npm install redux react-redux @reduxjs/toolkit @vitejs/plugin-react react-router-dom —save-dev**
 
 **I builds.**
-![Database Diagram](https://github.com/MikkoKylliainen/eustats/blob/master/eustats/public/eustats_ibuilds.png)
+![Database Diagram](https://github.com/MikkoKylliainen/EU-Statistics/blob/master/eustats/public/eustats_ibuilds.png)
