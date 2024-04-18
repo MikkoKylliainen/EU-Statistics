@@ -1,0 +1,73 @@
+button[name="login"]:hover {
+    background-color: #0ea5e9;
+    cursor: pointer;
+}
+
+.registerField {
+    position: relative;
+    right: -28px;
+    margin-top: 60px;
+}
+
+.registerLink {
+    color:#0284c7;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.registerLink:hover {
+    color:#16a34a;
+    border-bottom: 5px solid #16a34a;
+}
+
+.social {
+  margin-top: 30px;
+  display: flex;
+}
+
+.social div {
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 10px 10px 8px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+
+.social div:hover {
+  background-color: #0284c7;
+  cursor: pointer;
+}
+
+.social .fb {
+  margin-left: 25px;
+}
+
+.social i {
+  margin-right: 4px;
+}
+
+.catWarning {
+    width:90vw;
+    height:83vh;
+    overflow: hidden;
+}
+
+.disclaimer {
+    margin: 0px;
+    width: 100px;
+    color: #d8d7d7;
+    text-decoration: none;
+    padding: 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+    bottom:5px;
+}

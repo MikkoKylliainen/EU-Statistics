@@ -1,0 +1,14 @@
+button[name="Add"] {
+    background-color: #0ea5e9;
+    cursor: pointer;
+ }
+  
+ button[name="Add"]:hover {
+    background-color: #ffffff;
+    color: #080710;
+    cursor: pointer;
+}
+
+input[name="logFile"] {
+    padding: 12px; 
+}

@@ -1,0 +1,87 @@
+.runsTable {
+    margin-top: 150px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    --bs-table-border-color: #000;
+}
+
+.runsTable tr td {
+    background-color: rgba(255,255,255,0.90); 
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+    
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+table th:first-child  {
+    border-top-left-radius: 10px;
+}
+
+table th:first-child, table tr td:first-child, table th:nth-child(2), table tr td:nth-child(2) {
+    width: 180px;
+}
+
+table th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table th:first-child, table tr td:first-child {
+    padding-left:20px;
+}
+
+.buttonContainer {
+    max-width: -moz-fit-content; 
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: 0px;    
+}
+
+.removeButton, .cancelButton, .confirmButton {
+    font-weight: 700;
+    margin: -5px 0px 0px 0px;
+    margin-left: 10px;
+    padding: 1px 20px;
+    display: inline-block;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+}
+
+.removeButton {
+    visibility: hidden;
+    background-color: #dc2626;
+}
+
+.cancelButton {
+    background-color: #dc2626;
+}
+
+.confirmButton {
+    background-color: #16a34a;
+}
+
+table tr:hover td {
+   background-color: #0369a1;
+   color: #ededed;
+}
+
+table tr:hover .removeButton {
+    visibility: visible;
+}
+
+table.runsTable th {
+    background-color: #0c4a6e;
+    color: #ededed;
+}
+
+table td {
+    font-weight: 700;
+}
+
+table td:last-child {
+    width: 240px
+}
